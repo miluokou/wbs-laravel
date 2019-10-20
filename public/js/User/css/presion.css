@@ -1,0 +1,125 @@
+body{background-image: url('../images/presion1.png');}
+.bigbg{width: 100%;height:820px; background-image: url('../images/presion.png');background-repeat:no-repeat; background-size:100% 820px;}
+  .bigbox{width: 100%;height: 1031px}
+  .personal{width:92%;height: 110px;padding:0px 4%;}
+  .personaldate{height: 90px;width:600px;float: left;margin-top: 20px}
+  .personaldate img{height:65px;width:65px;float: left;margin-right:20px;border-radius: 50%}
+  .personaldate div{height:90px;width:400px;margin-right:20px;float: left;}
+  .personaldate div p:nth-child(1){ color: #fff;font-weight: bold;font-size: 18px;}
+  .personaldate div p:nth-child(2){ color: #fff; width: 150px;font-size: 13px;text-align: left;margin: 10px 0px;padding:5px}
+  .personaldate div p:nth-child(3){ color: rgb(51, 51, 51);font-weight: 400;font-size: 12px;}
+  .personaldate div p:nth-child(3) span{ color:#FF0000;font-size: 12px;}
+  .personaltime {height: 90px;width:400px;float: right;margin-top: 20px}
+  .personaltimeone {height: 90px;width:150px;float: right;}
+  .personaltimeone p:nth-child(1){color: #fff;font-size: 24px;text-align:right;}
+  .personaltimeone p:nth-child(2){color: #fff;font-size: 20px;text-align:right;margin-top: 10px}
+  .personaltimeimg {height: 90px;width:200px;float: right;}
+  .personaltimeimg  img{height:150px;width:200px;margin-top: -20px}
+  .progress-listimga{color: #000;text-align: center;line-height: 50px;font-size: 12px;font-weight: bold;width: 80px;height: 50px; position: absolute;top: -20px;left: 0px;background-image: url('../images/56125_02.png');background-repeat:no-repeat; background-size:100% 100%;}
+  /*.personaltime div{float: left;width: 84px;height: 74px;margin: 3px 5px}*/
+  /*.personaltime div:nth-child(1){text-align: center;font-size: 36px;color: #AEAEAE;background-color: #ffffff;line-height: 75px}*/
+  /*.personaltime div:nth-child(2) p{font-size: 20px;color: #5E5E5E;margin-top: 5px}*/
+ 
+/*导航*/
+  .classnav{width: 92%;height: 42px;padding:0px 4%;}
+  .classnav div{width: 80px;height: 40px;float: left;font-size: 14px;margin-right: 10px;text-align: center;line-height: 39px}
+  .classnav div a{color: #333333;font-size: 14px;font-family: 'Arial Normal', 'Arial';font-weight: 400}
+  .classnav div a:hover{color: red;}
+  .classnav div:nth-child(2){border-bottom: 3px solid #3399ff}
+  .classnav div:nth-child(2) a{color: #3399ff;}
+
+/*导航*/
+
+	.classlist{width:85%; padding:0px 4%;margin:auto;margin-top: 10px}
+        .classlistdata{height: 135px;width: 100%;background-color: #fff;padding-bottom: 30px}
+      .listdataclass{height:50%;width: 100%;}
+      .listdataclasstitle{height: 60px;width: 100%;text-align: left;color: #0f6dec;}
+      .listdataclasstitle b{font-size: 18px;line-height: 60px;margin-left: 10px;color: #0f6dec;}
+      .listdataclasstitle p a b:hover{color: red;}
+      .listdataclasstitle p{float: right; height: 50px;margin-top:10px;}
+      .listdataclasstitle p a img{float:left;margin:20px 10px 0px 0px  }
+      .listdataclasstitle p span{margin-left: 30px}
+      .listdataclasstitle p span img{margin-right:15px }
+      .progress-listimg{margin-top: -25px}
+      .integral-description{float: right;position: relative;width: 100px}
+      .integral-description .integral-description-title{color: #0f6dec;font-weight: bold;width: 200px}
+      .integral-description .integral-description-title:hover{color: red;}
+      .integral-description .integral-description-title img{width: 10px;height: 11px;float: left;margin:5px;}
+      .integral-description .integral-description-title span{float: left;}
+      .integral-description  div{width: 200px;position: absolute;top: 18px;right: 0px;background-color: #fff;display: none;color: #999999}
+
+      .statistical-chart{width: 100%;margin:30px 0px; background-color: #fff}
+      .statistical-chart div b{font-size: 18px;line-height: 60px;margin-left: 20px;color: #0f6dec;}
+      .statistical-chart div p{margin-top: -15px;color:#cccccc;margin-left: 20px;font-size: 12px}
+      /*.statistical-chart #line{width: 98%;margin:0px 1%;height: 200px}*/
+
+
+
+    .listdatamin{height: 38%;width: 100%;}
+    /*进度条*/
+    .progress-bar{
+        margin-top: 25px;
+        /* 进度条的槽 */
+        width:100%;
+        /* 设置进度条的高度 */
+        height: 10px;
+        /*进度条外层div的背景色，进度未达到的地方的颜色 */
+        background-color: #e8e8e8;
+        border-radius: 10px;
+    }
+    .progress{
+        /* 进度部分 */
+        /* 利用继承父元素宽度的百分比控制进度 */
+        width: 10%;
+        height: 100%;
+        /* 内层背景色即进度达到的颜色 */
+        /*background-color: #2e7af5;*/
+        border-radius: 10px;
+        /*background:linear-gradient(-90deg,#e2f50c,#84eafe)*/
+        background-color: #4082fb 
+    }
+    /*进度条*/
+    .progress-list{width: 100%;height: 40px;line-height: 40px;font-size: 12px;position: relative;}
+    .progress-list img{position: absolute;top:-55px;left: 0px}
+    .progress-listspan span:nth-child(1){ color: #2978f4;display: block;width: 70px;float: left;font-weight: bold;font-size: 16px;text-align: center;}
+    .progress-listspan span:nth-child(2){ color: #2978f4;display: block;width: 70px;float: right;font-weight: bold;font-size: 16px;text-align: center;}
+    .progresslistlenght span{color: #2978f4;display: block;float: left;font-weight: bold;font-size: 16px;text-align: center;width: 30px;}
+
+
+
+
+
+/*体现css*/
+  .reflect-box{width: 100%;height: 100%;position: fixed;left: 0px;top: 0px;display: none;}
+  .reflect-cash{border-radius: 5px; width: 800px;height: 400px;margin:50px auto;background-image: url('../images/9d55386.png');background-repeat:no-repeat; background-size:100%;border-radius: 10px;position: relative;}
+  .reflect-input-show{border-radius: 5px; width: 400px;height:40px;background-color: #fff;text-align: center;font-size: 18px;line-height: 40px;color: blue;position: absolute;top: 0px;right: 0;left: 0;margin: 40px auto;display: none}
+  .reflect-cash-close{width: 25px;height: 25px;border-radius: 50%;position: absolute;top: 30px;right: 30px;}
+  .reflect-cash-close img{width:100%;height:100%;}
+  .reflect-cash-font{width: 200px;height: 50px;font-size: 18px; color: #000000;font-weight: bold;padding:50px 0px 20px 60px;}
+  .reflect-cash-cont{width: 500px;height: 120px;font-size: 18px; margin:0px auto;}
+  .reflect-cash-cont span{font-size: 18px;}
+  .reflect-cash-cont input{border:none;border-bottom: 2px solid #0f6dec;color: #b3b3b3;text-align: center;margin: 0px 10px;height: 30px;font-size: 20px}
+  .reflect-cash-cont button{width: 90px;height: 30px;text-align: center;background-color: #57a8fe;color: #fff;border: none;border-radius: 5px}
+  .reflect-cash-cont p{font-size: 16px;color: #727272;margin-top: 10px}
+  .reflect-cash-show{margin-left: 60px;}
+  .reflect-cash-show p:nth-child(1){font-size: 16px;color: #40434a;font-weight: bold;}
+  .reflect-cash-show p{line-height:25px}
+  .reflect-prompt{display:none;position: relative; width: 800px;height: 600px;margin:100px auto;border-radius: 10px;background-image: url('../images/24159c.png'); background-size:800px 600px;padding: 0px}
+  .reflect-prompt-close{width: 25px;height: 25px;border-radius: 50%;position: absolute;top: 30px;right: 30px;}
+  .reflect-prompt-see {width: 400px;height: 50px;line-height: 50px; margin-left:200px;padding-top: 230px;color: #000;font-size: 16px;text-align: center;font-weight: bold;}
+  .reflect-prompt-img {width: 180px;height: 200px; margin-left:310px;}
+  .reflect-prompt-img img{width: 180px;height: 200px;}
+  .reflect-prompt-font{margin-left: 30px;color: #40434a;margin-top: -30px;}
+  .reflect-prompt-font p:nth-child(1){font-size: 16px;color: #40434a;font-weight: bold;}
+
+  .reflect-prompt_sb{display:none;position: relative; width: 800px;height: 600px;margin:100px auto;border-radius: 10px;background-image: url('../images/24159c.png'); background-size:800px 600px;padding: 0px}
+  .reflect-prompt-close_sb{width: 25px;height: 25px;border-radius: 50%;position: absolute;top: 30px;right: 30px;}
+  .reflect-prompt-see_sb {width: 400px;height: 50px;line-height: 50px; margin-left:200px;padding-top: 230px;color: #000;font-size: 16px;text-align: center;font-weight: bold;}
+  .reflect-prompt-img_sb {width: 180px;height: 200px; margin-left:310px;}
+  .reflect-prompt-img_sb img{width: 180px;height: 200px;}
+  .reflect-prompt-font_sb{margin-left: 30px;color: #40434a;margin-top: -30px;}
+  .reflect-prompt-font_sb p:nth-child(1){font-size: 16px;color: #40434a;font-weight: bold;}
+
+
+  #line{margin-left:0px;}
+	

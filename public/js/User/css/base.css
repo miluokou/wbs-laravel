@@ -1,0 +1,69 @@
+/*登陆页面*/
+	.biglogo{position: fixed;top:0px;left:0px;width: 100%;height: 100%;background-color:rgba(0, 0, 0, 0.298039215686275);display: none;}
+	.mixlogo{width: 860px;height: 600px;background-color: #fff;margin:80px auto}
+	.mixlogoout{width: 24px;height: 24px;float: right;margin-top: 20px;margin-right: 20px}
+	.mixlogoout img{width:100%;height:100%;}
+    .cutphone{width: 150px;height: 30px;margin:0px auto;text-align: center; color: #A1A1A1;}
+    .cutwechat{width: 150px;height: 30px;margin:15px auto;text-align: center; color: #A1A1A1;}
+
+
+	.logophone{display: block;width: 600px;height: 400px;padding-top:40px;margin-left:130px;}
+	.mixlogoname1{width: 100%;height: 30px;padding-top: 50px;text-align: center;font-family: 'Arial Negreta', 'Arial Normal', 'Arial';font-weight: 700;font-style: normal;font-size: 18px;}
+    .mixlogoimg1{width: 275px;height: 275px;margin:5px auto;position: relative;}
+    .mixlogoimg1 img{width:100%;height:100%;}
+    .mixlogoimg1 div{width:100%;height:100%;position: absolute;top: 0px;left: 0px;background-color:rgba(132, 135, 164, 0.99);text-align: 
+        center;line-height: 275px;color: #fff;display: none;}
+
+
+
+	.logowechat{display: none;width: 600px;height: 400px;padding-top:40px;;margin-left:130px;}
+	.mixlogoname2 { width: 300px;height: 80px;margin:0px auto;padding-top: 50px ;}
+    .mixlogoname2 img{ width: 65px;height: 65px;float: left;margin: 10px 40px}
+    .mixlogoname2 p{ 
+        font-family: 'Arial Negreta', 'Arial Normal', 'Arial';
+    	font-weight: 700;
+    	font-style: normal;
+    	font-size: 28px;
+    	float: left;
+    	line-height: 87px;
+     }
+     .mixlogoimg2{width: 350px;height: 250px;margin:0px auto;}
+     .mixlogoimg21{width: 100%;height: 20px;}
+     .mixlogoimg21 img{width: 100px;height: 2px;float: left;}
+     .mixlogoimg21 p{width:150px;font-weight: 400;font-style: normal;font-size: 13px;color: #333333;float: left;text-align: center;margin-top: -10px}
+     .mixlogoimg22{width: 100%;height: 220px}
+     .mixlogoimg221 {width: 270px;height: 60px;margin:0px auto;position: relative;}
+     .mixlogoimg221 input{width: 240px;height: 30px;border: 1px solid #ccc;font-size: 12px}
+     .mixlogoimg221 span{width:150px;position: absolute;left: 250px;top: 20px;color: red;font-size: 12px}
+     .mixlogoimg222 {width: 270px;height: 30px;margin:0px auto;position: relative;}
+     .mixlogoimg222 input{width: 130px;height: 32px;border: 1px solid #ccc;font-size: 12px}
+     .mixlogoimg222 .dxcode{width: 110px;height: 33px;border: 1px solid #ccc;background-color: rgba(242, 242, 242, 1);border-left: none;font-size: 12px;color: #868686;text-align: center;}
+     .mixlogoimg222 span{width:150px;position: absolute;left: 250px;top: 7px;color: red;font-size: 12px}
+     .mixlogoimg223 {width: 270px;height: 30px;margin:30px auto;}
+     .mixlogoimg223 input{width: 240px;height: 40px;background-color: rgba(81, 175, 255, 1);border: none;border-radius: 5px;color: #FFFFFF;text-align: center;}
+     .agreement{text-align: center;color: red;display: none;height: 20px}
+
+    .lohoread{width: 240px height:50px;margin: 0px auto;text-align: center;font-size: 18px;color: #333333;}
+    .lohoread a{color: #496fff; }
+
+	.logoshow{display: none;}
+	.logocont{width:860px;height: 140px;margin: auto; overflow-y: scroll;overflow-x: hidden;}
+	.logoin{
+		width: 50px;height: 20px;text-align: center;margin: 10px auto;background-color: rgba(81, 175, 255, 1);border: none;border-radius: 5px;color: #FFFFFF;
+	}
+
+
+/* 调查信息表 */
+    .fristmas{position: fixed;top:0px;left:0px;width: 100%;height: 100%;background-color:rgba(0, 0, 0, 0.298039215686275);display: 
+        none}
+    .fristmasmin{width: 700px;height: 700px;background-color: #fff;margin:80px auto;}
+    .fristmasout{width: 24px;height: 24px;float: right;margin-top: 20px;margin-right: 20px}
+    .fristmasout img{width:100%;height:100%;}
+    .fristname{font-weight: 700;font-size: 18px;height: 60px;line-height: 70px;margin-left: 25px;}
+    .fristprepolr{margin-left: 25px;width: 90%;font-size: 14px;text-align: left;color: #333333;font-weight: 400;line-height: 25px;margin-bottom: 30px}
+    .imgclick{background-color: skyblue;width: 116px;text-align: center;   color: #FFFFFF;padding: 8px;float: right;margin-right: 60px;border-radius: 3px}
+
+    .fristinput{width: 700px;height: 200px;background-color: rgba(242, 242, 242, 1);margin:320px auto;position: relative;display: 
+        none}
+    .fristproblem{width:100%;height:150px;text-align: center;    font-family: '微软雅黑 Bold', '微软雅黑';font-weight: 700;font-style: normal;font-size: 20px;line-height: 150px }
+    .imgclicko{background-color: skyblue;width: 116px;text-align: center;    color: #FFFFFF;padding: 8px;position: absolute;right: 30px;bottom: 20px}

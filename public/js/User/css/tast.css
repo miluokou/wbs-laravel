@@ -1,0 +1,51 @@
+        *{padding: 0px;margin: 0px;font-size: 14px;text-decoration: none;font-family: 'Arial Normal', 'Arial';}
+        .clear{clear: both;}
+        body{background-color: #282c37;}
+        .bigboxlearn{width:100%}
+        .learnfont{width: 100%;height: 70px;position: relative;background-color: #192030}
+        .learnfontback{width: 300px;margin-left:40px;height: 50px;float: left;margin-top: 15px}
+        .learnfontback p{color: #fff;line-height: 20px}
+        .learnfontback p a{font-weight: bold;color: #fff}
+        .learntitle{width: 200px;height:45px;font-size: 16px;font-weight: bold;position: absolute;top: 15px;left: 44%;border-radius: 10px; background-color: #0f6dec;color: #fff;text-align: center;line-height: 45px}
+
+       
+
+        .bighelp{width: 100%;height: 100%;position: fixed;top:0px;left:0px;display: none;}
+        .help{width: 800px;height: 500px;margin: 100px auto;border-radius: 10px;background-image: url('../images/abc.png');background-repeat:no-repeat; background-size: 800px 500px;}
+
+        .helpx{width:25px;height: 25px;float:right;margin: 10px}
+        .helpx img{width:25px;height: 25px;}
+        .help .helplist{width: 100%;height:50px;padding-top: 60px; text-align: center;font-size: 24px;color: #1541be}
+        .help .helpbtn{width: 100%;height:50px;padding-top: 300px; }
+        .help .helpbtn button{outline:none;width: 150px;height:40px;margin-left: 325px;text-align: center;line-height: 40px;color: #fff;background-color: #0f6dec;border-radius: 5px;border: none; }
+
+
+        .learnlist{width:96%;height:100%;background-color: #282c37;margin: 20px auto;}
+        .learnlist_topic{padding-bottom: 20px}
+        .learnlist_topic p{color: #fff;margin-bottom: 10px}
+        .learnlist_topic div{margin-bottom: 15px}
+        .learnlist_topic a{height: 40px;line-height: 40px;color: #fff;border-radius: 3px;background-color: #5e6369;border: none;padding: 13px 10px;position: relative;}
+        .learnlist_topic input{position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;opacity: 0}
+        .learnlist_submit{width:150px;height: 50px;margin:50px auto;}
+        .learnlist_submit button{outline:none;width: 150px;height:50px;text-align: center;line-height: 50px;color: #fff;background-color: #0f6dec;border-radius: 5px;border: none;margin-left: 500px}
+
+        .bigstart{width:100%;height: 100%x;position: fixed;top:0px;left:0px;}
+        .start{width: 800px;height: 400px;background-color: #fff;margin: 150px auto;border-radius: 10px;}
+        .startx{width:25px;height: 25px;float:right;margin: 10px}
+        .startx img{width:25px;height: 25px;}
+        .start .startlistone{width: 50%;float: left; height: 200px;margin-top: 70px}
+        /*.start .startlistone img{width: 100%;height:100%;}*/
+        .start .startlisttwo{width: 48%;float: left; height: 200px;margin-top: 80px;margin-right: 2%}
+        .start .startlisttwo p{font-size:17px;text-align: center;color: #fe624d;margin-bottom: 20px;font-weight: bold;}
+        .start .startlisttwo button{ outline:none;width: 150px;height:40px;margin: 10px 125px;text-align: center;line-height: 40px;color: #fff;background-color: #0f6dec;border-radius: 5px;border: none;}
+
+        .bigpaper{width:100%;height: 100%x;position: fixed;top:0px;left:0px;display: none}
+        .paper{width: 800px;height: 400px;background-color: #fff;margin: 150px auto;border-radius: 10px;}
+        .paperx{width:25px;height: 25px;float:right;margin: 10px}
+        .paperx img{width:25px;height: 25px;}
+        .paper .paperlistone{width: 50%;float: left; height: 200px;margin-top: 70px}
+        /*.paper .paperlistone img{width: 100%;height:100%;}*/
+        .paper .paperlisttwo{width: 48%;float: left; height: 200px;margin-top: 80px;margin-right: 2%}
+        .paper .paperlisttwo p{font-size:17px;text-align: center;color: #fe624d;margin-bottom: 20px;font-weight: bold;}
+        .paper .paperlisttwo .paper_close{ outline:none;width: 150px;height:40px;margin: 10px 125px;text-align: center;line-height: 40px;color: #fff;background-color: #0f6dec;border-radius: 5px;border: none;}
+        .paper .paper_submit{background-color: #fff;border: 1px solid #0f6dec;color: #0f6dec;outline:none;width: 150px;height:40px;margin: 10px 125px;text-align: center;line-height: 40px;border-radius: 5px}

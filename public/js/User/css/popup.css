@@ -1,0 +1,7 @@
+/*邀请弹窗*/
+    .biginvitationimg{width: 100%;height: 100%;position: fixed;top:0px;left: 0px;display: none;}
+    .invitationimg{position: relative; width: 700px;height: 300px;margin: 150px auto;border-radius: 10px ;background-image: url('../images/4be0545.png');background-repeat:no-repeat; background-size:100% 100%;}
+    .invitationimg-close{width: 25px;height: 25px;border-radius: 50%;position: absolute;top: 20px;right: 20px;}
+    .invitationimg-close img{width:100%;height:100%;}
+    .invitationimg p{width: 100%;text-align: right;font-size: 18px;font-weight: bold;color: #51afff;line-height: 210px}
+        .invitationimg button{width: 250px;height: 35px;text-align: center;background-color:#51afff;color: #fff;border-radius: 5px;line-height: 35px;border: none;outline: none;margin-left: 345px }

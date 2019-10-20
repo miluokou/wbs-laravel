@@ -1,0 +1,25 @@
+body{background-image: url('../images/banner.jpg');background-repeat:no-repeat; background-size:100% 100%;-moz-background-size:100% 100%;}
+.bigbox{width: 100%;margin-bottom: 20px}
+.welfare{width:96%;height: 100px; margin:15px 2% 25px 2%;}
+.centernav{height: 110px;width:92%;margin:10px 4%;}
+.centernav div{height: 110px;width:70px;float: left;margin-right: 25px}
+.centernav div a img{height: 70px;width:70px;border-radius: 50%}
+.centernav div a p{width:100%;text-align: center;color: #333}
+
+.feedback{width:92%;margin:0px 2%;background-color: #fff;padding:10px 2%;margin-bottom:50px;height: 700px}
+.feedback .feedbackfont{font-size: 18px;color: #40434a;font-weight: 800;margin-bottom: 20px}
+.feedback .feedbackselect{margin-bottom: 15px;}
+.feedback .feedbackselect p{color: #40434a;margin-bottom: 5px}
+.feedback .feedbackselect select{width:240px;height: 32px;border: 1px solid #cbd4de;color: #40434a;}
+.feedback .feedbacktext p{color: #40434a;margin-bottom: 5px}
+.feedback .feedbacktext textarea{border: 1px solid #cbd4de;}
+.feedback .feedbackimg p{color: #40434a;margin-bottom: 5px}
+.feedback .feedbackimg .feedbackimgall{height: 130px;float: left;}
+.feedback .feedbackimg .feedbackimgall div{height: 130px;width: 140px;float: left;}
+/*.feedback .feedbackimg .feedbackimgall{height: 130px;width: 140px;float: left;}*/
+.feedbackimgin{height: 130px;width: 140px;position: relative;font-size: 115px;border: 1px solid #cbd4de;text-align: center;color: #40434a;}
+.feedbackimgout{border: 1px solid #cbd4de;margin-right: 5px}
+.feedbackimgout img{height: 130px;width: 140px;}
+.feedbackimgin input{width: 100%;height: 100px;position: absolute;top: 0px;left: 0px;opacity: 0;}
+.feedbackchick{width: 120px; height: 30px;float: right;margin: 50px}
+.feedbackchick button{width: 120px; height: 30px;color: #fff;background-color: #57a8fe}

@@ -1,0 +1,152 @@
+        *{padding: 0px;margin: 0px;font-size: 14px;text-decoration: none;font-family: 'Arial Normal', 'Arial';}
+        .clear{clear: both;}
+        /*body{background-image: url('../images/learnbg.jpg');background-repeat:no-repeat; background-size:100%;-moz-background-size:100% }*/
+        body{background-color: #19202f}
+        .bigboxlearn{width:100%;height: 800px; background-color: #19202f }
+        .learnfont{width: 100%;height: 70px;background-color: #19202f}
+        .learnfontback{width: 300px;float: left;height: 40px;margin-top: 25px;margin-left: 25px}
+        .learnfontback p {color: #fff;line-height: 20px;}
+        .learnfontback p a{font-weight: bold;color: #fff}
+        .learntitle{width: 200px;height:40px;font-size: 15px;font-weight: bold;border-radius: 5px;background-color: #0066ff;color: #fff;line-height: 40px;text-align: center;float:left;margin-left: 20%;margin-top: 15px}
+        .learnlist{width: 100%;margin:0;background-color:#272c36;height:100%;margin-bottom: 30px;padding-top: 15px}
+        .learnlistnr{float: left;width: 70%;height: 100%;position: relative;} 
+        .learnlistnr_bigall{width: 100%;height: 640px;background-color: #fff;overflow: hidden;}
+        .learnlistnr .learnlistnr_all{width:calc(100% + 17px);height:100%;overflow-x: hidden;overflow-y: scroll;background-color: #272c36;} 
+        .learnlistnr .learnlistnr_all p{color: #fff;line-height: 35px} 
+        .learnlistnr .learnlistnr_right{width:20px;height: 370px;/*height: 600px;*/background-color: #272c36;position: absolute;top: 0px;right: 0px} 
+
+
+        .learnlistnr_admin{display: none;}
+        .learnlistnr_admin_content .itemnumabc{margin-bottom: 20px;display: none;}
+        .learnlistnr_admin_content .itemnumabc .learnlistnr_admin_content_img{float: left;margin: 0px 20px}
+        .learnlistnr_admin_content .itemnumabc p{float: left}
+        .learnlistnr_admin_content .abc{clear: both;}
+        .learnlistnr_admin_problem {display: none;}
+        .learnlistnr_admin_problem div p img{margin: 0px 20px}
+        .learnlistnr_admin_problem div button{margin-left: 70px;margin-top: 10px;outline:none;color: #fff;background-color: #0f6dec;border-radius: 5px;border: none;padding: 10px;}
+        .learnlistnr_admin_answer p img{margin: 0px 20px}
+
+        .learnlistnr_user_content .itemnumabc{margin-bottom: 20px;}
+        .learnlistnr_user_content .itemnumabc .learnlistnr_user_content_img{float: left;margin: 0px 20px}
+        .learnlistnr_user_content .itemnumabc p{float: left}
+        .learnlistnr_user_content .abc{clear: both;}
+        /*.learnlistnr_user_problem {display: none;}*/
+        .learnlistnr_user_problem div p img{margin: 0px 20px}
+        .learnlistnr_user_problem div button{margin-left: 70px;margin-top: 10px;outline:none;color: #fff;background-color: #0f6dec;border-radius: 5px;border: none;padding: 10px;}
+        .learnlistnr_user_answer p img{margin: 0px 20px}
+        .learnlistnr_user_problem div .user_button_sel{border: 2px solid red}
+        .learnlistnr_user_problem div  p .cxuser{outline:none;color: #fff;background-color: #ffba00;border-radius: 5px;border: none;padding:5px 10px;margin: 0px;}
+
+
+        
+        .learnlistnr .learnlistsubmit{position: absolute;right: 0px;bottom: 15px;width: 95px;height: 35px;text-align:center;line-height: 35px;background-color: #57a8fe;color: #fff;text-align: center;border-radius: 5px;color: #fff;float: right;margin-right: 20px}
+        .learnlistnr .learnlistsubmit_content{position: absolute;right: 0px;bottom: 15px;width: 95px;height: 35px;text-align:center;line-height: 35px;background-color: #57a8fe;color: #fff;text-align: center;border-radius: 5px;color: #fff;display: none;float: right;margin-right: 20px}
+        .learnlistby{float: right;width: 30%;height: 100%;margin:0px;background-color: #272c36}
+        .learnlistby .learnlistbyan_by {display: none;height: 100%;width: 100%}
+        .learnlistby .learnlistbyan_yc {width: 100%;height:100%;margin:0px;background-color: #19202f;text-align: center;line-height: 500px;font-size: 30px;color: #999999}
+        .learnlistby .learnlistbyan_by .learnlistbynr{width: 100%;height:50%;position: relative; background-color: #19202f}
+        .learnlistby .learnlistbyan_by .learnlistbynr .learnlistbynr_text{width: 90%;height:calc(100% - 45px);background-color: #19202f;margin:0 5%;overflow: hidden;margin-top: 10px}
+        .learnlistby .learnlistbyan_by .learnlistbynr .learnlistbynr_text textarea{width: calc(100% + 17px);height:100%;background-color: #19202f;border: none;resize:none;overflow-x:hidden;color: #fff;outline: none;}
+        .learnlistby .learnlistbyan_by .learnlistbynr .inputcz{outline:none;width: 70px;height:25px;position: absolute;bottom:10px;left: 15px;background-color: #0f6dec;border: none;border-radius: 3px;color: #fff}
+        .learnlistby .learnlistbyan_by .learnlistbynr .inputyx{outline:none;width: 70px;height:25px;position: absolute;bottom:10px;right: 15px;background-color: #ffba00;border: none;border-radius: 3px;color: #fff}
+
+        .learnlistby .learnlistbyan_by .learnlistbyan{width: 100%;height:46%;position: relative;background-color: #19202f;margin-top: 5%}
+        .learnlistby .learnlistbyan_by .learnlistbyan .learnlistbyan_text{width: 90%;height:calc(100% - 65px);background-color: #19202f;margin:0 5%;overflow: hidden;padding-top: 35px}
+        .learnlistby .learnlistbyan_by .learnlistbyan textarea{width: calc(100% + 17px);height:100%;background-color: #19202f;border: none;resize:none;overflow-x:hidden;color: #fff;outline: none;}
+        .learnlistby .learnlistbyan_by .learnlistbyan .learnlistbyan_show{width: 100%;height: 30px;text-align: center;background-color:#a40d14;position: absolute;left: 0;bottom:10px;line-height: 30px;color: #ca8c8d;display: none;}
+        .learnlistby .learnlistbyan_by .learnlistbyan .learnlistbyan_show a{color: #fff}
+        .learnlistby .learnlistbyan_by .learnlistbyan .inputfx{display: none;position: absolute;top: 10px;right:100px; outline:none;width: 70px;height:25px;background-color: #57a8fe;border: none;border-radius: 3px;color: #fff;}
+        .learnlistby .learnlistbyan_by .learnlistbyan .inputcx{ position: absolute;top: 10px;right: 15px; outline:none;width: 70px;height:25px;background-color: #57a8fe;border: none;border-radius: 3px;color: #fff;}
+
+
+
+        .learnlistnr .learnend{width: 100%;height: 260px;position: absolute;left: 0px;bottom: 0px}
+        .learnlistnr .learnendfont{height: 35px;width: 98%;background-color: #19202f;color: #fff;line-height: 35px;padding: 0px 1%;font-size: 12px;font-weight: bold;}
+        .learnlistnr .learnendimg{width: 98%;margin: 50px 1%;}
+        .learnlistnr .learnendimg div{width:50%;height: 100px;float: left;text-align: center;}
+        .learnlistnr .learnendimg div a img{width: 385px;height: 100px;}
+
+
+
+
+
+     /*.rush{width: 800px;height: 400px;position: fixed;top: 190px;left:30%;background-color: #fff;}
+        .rushx{width:25px;height: 25px;float:right;margin: 10px}
+        .rushx img{width:25px;height: 25px;}
+        .rush .rushlist{width: 400px;height: 300px;margin-left: 200px;margin-top: 50px}
+        .rush .rushlist p{font-size: 19px;text-align: center;}
+        .rush .rushlist img{width: 380px;height: 100px;margin: 30px 10px}
+        .rush .rushlist button{width: 150px;height:40px;margin: 10px 125px;text-align: center;line-height: 40px;color: #fff;background-color: #0f6dec;border-radius: 5px;border: none;}*/
+        /*体验弹窗*/
+        .bigrush{width:100%;height: 100%x;position: fixed;top:0px;left:0px;display: none;}
+        .rush{width: 800px;height: 400px;margin: 150px auto;border-radius: 10px; background-color: #fff;}
+        .rushx{width:25px;height: 25px;float:right;margin: 10px}
+        .rushx img{width:25px;height: 25px;}
+        .rush .rushlist{width: 400px;height: 300px;margin-left: 200px;padding-top: 50px}
+        .rush .rushlist p{font-size: 19px;text-align: center;color: #0f6dec;height: 50px;}
+        .rush .rushlist img{width: 380px;height: 100px;margin: 30px 10px}
+        .rush .rushlist a{text-align: center;color: #fff;background-color: #0f6dec;border-radius: 5px;border: none;padding: 10px 100px}
+
+     /*  .tips{width: 800px;height: 400px;position: fixed;top: 190px;left:30%;background-color: #fff;}
+        .tipsx{width:25px;height: 25px;float:right;margin: 10px}
+        .tipsx img{width:25px;height: 25px;}
+        .tips .tipslist{width: 400px;height: 200px;margin-left: 200px;margin-top: 120px}
+        .tips .tipslist p{font-size: 19px;text-align: center;}
+        .tips .tipslist button{width: 150px;height:40px;margin: 10px 125px;text-align: center;line-height: 40px;color: #fff;background-color: #0f6dec;border-radius: 5px;border: none;}*/
+        /*作业提示弹窗*/
+        .bigtips{width:100%;height: 100%x;position: fixed;top:0px;left:0px;display: none;}
+        .tips{width: 800px;height: 400px;background-color: #fff;margin: 150px auto;border-radius: 10px;}
+        .tipsx{width:25px;height: 25px;float:right;margin: 10px}
+        .tipsx img{width:25px;height: 25px;}
+        .tips .tipslistone{width: 50%;float: left; height: 200px;margin-top: 70px}
+        /*.tips .tipslistone img{width: 100%;height:100%;}*/
+        .tips .tipslisttwo{width: 50%;float: left; height: 200px;margin-top: 80px}
+        .tips .tipslisttwo p{font-size: 21px;text-align: center;color: #fe624d;margin-bottom: 20px}
+        .tips .tipslisttwo button{ outline:none;width: 150px;height:40px;margin: 10px 125px;text-align: center;line-height: 40px;color: #fff;background-color: #0f6dec;border-radius: 5px;border: none;}
+
+        /*关卡学习提示弹窗*/
+        .bigtipsone{width: 100%;height: 100%;position: fixed;top: 0px;left:0px;display: none;}
+        .gardtips{width: 800px;height: 400px;background-color: #fff;margin: 0px auto;margin-top: 200px;border-radius: 10px}
+        .gardtipsx{width:25px;height: 25px;float:right;margin: 10px}
+        .gardtipsx img{width:25px;height: 25px;}
+        .gardtips .gardtipslistone{width: 50%;float: left; height: 200px;margin-top: 70px}
+        /*.gardtips .gardtipslistone img{width: 100%;height:100%;}*/
+        .gardtips .gardtipslisttwo{width: 50%;float: left; height: 200px;margin-top: 80px}
+        .gardtips .gardtipslisttwo p{font-size: 21px;text-align: center;color: #fe624d;margin-bottom: 20px}
+        .gardtips .gardtipslisttwo button{width: 150px;height:40px;margin: 10px 125px;text-align: center;line-height: 40px;color: #fff;background-color: #0f6dec;border-radius: 5px;border: none;}
+
+        /*提示*/
+        .prompt{width:50%;height: 40px;position: fixed;top: 15px;left:25%;background-color: #fff;display: none;}
+        .promptx{width:25px;height: 25px;float:right;margin: 10px}
+        .promptx img{width:25px;height: 25px;}
+        .prompt .promptlist{width: 400px;height: 40px;margin:auto;line-height: 40px}
+        .prompt .promptlist p{font-size: 19px;text-align: center;}
+        .prompt .promptlist button{width: 150px;height:40px;margin: 10px 125px;text-align: center;line-height: 40px;color: #fff;background-color: #0f6dec;border-radius: 5px;border: none;}
+        
+        /*求助*/
+        .bighelp{width: 100%;height: 100%;position: fixed;top:0px;left:0px;display: none;}
+        .help{width: 90%;height:90%;margin:3% 5%;border-radius: 10px;background-color: #fff /*background-image: url('../images/abc.png');background-repeat:no-repeat; background-size: 800px 500px;*/}
+        .helpx{width:25px;height: 25px;float:right;margin: 10px}
+        .helpx img{width:25px;height: 25px;}
+        .help .helplist{width: 100%;height:5%;padding-top: 1%; text-align: center;font-size: 24px;color: #1541be}
+        .help .helpbtn{width: 100%;height:94%; }
+        .help .helpbtn .helpbtn-tipe{width: 90%;height:80%;margin: auto; overflow: hidden;}
+        .help .helpbtn .helpbtn-tipe div span{color: red ;font-weight: bold;}
+        .help .helpbtn .helpbtn-tipe p{color: #ccc;font-size: 12px}
+        .help .helpbtn  .helpbtn-img {text-align: center;height: 20%}
+        .help .helpbtn  .helpbtn-img img{width: 80px;height: 80px;margin: auto}
+        .help .helpbtn  .helpbtn-img p{text-align: center;font-size: 12px}
+        .help .helpbtn .helpbtn-tipe textarea{background-color: #19202f; width:calc(100% + 17px);height:40%;border: none;resize:none;overflow-x:hidden;color: #fff;outline: none;overflow-y: scroll; }
+        /*.help .helpbtn button{outline:none;width: 150px;height:10%;margin:auto;text-align: center;line-height: 40px;color: #fff;background-color: #0f6dec;border-radius: 5px;border: none; }*/
+
+
+
+        .classbigtips{width:100%;height: 100%x;position: fixed;top:0px;left:0px;display: none;}
+        .classtips{width: 800px;height: 400px;background-color: #fff;margin: 150px auto;border-radius: 10px;}
+        .classtipsx{width:25px;height: 25px;float:right;margin: 10px}
+        .classtipsx img{width:25px;height: 25px;}
+        .classtips .classtipslistone{width: 50%;float: left; height: 200px;margin-top: 70px}
+        /*.classtips .classtipslistone img{width: 100%;height:100%;}*/
+        .classtips .classtipslisttwo{width: 50%;float: left; height: 200px;margin-top: 80px}
+        .classtips .classtipslisttwo p{font-size: 21px;text-align: center;color: #fe624d;margin-bottom: 20px}
+        .classtips .classtipslisttwo button{ outline:none;width: 150px;height:40px;margin: 10px 125px;text-align: center;line-height: 40px;color: #fff;background-color: #0f6dec;border-radius: 5px;border: none;}

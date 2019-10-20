@@ -1,0 +1,90 @@
+        *{padding: 0px;margin: 0px;font-size: 14px;text-decoration: none;font-family: 'Arial Normal', 'Arial';}
+        .clear{clear: both;}
+        body{background-image: url('../images/learnbg.jpg');background-repeat:no-repeat; background-size:100% 100%;-moz-background-size:100% 100%;}
+        .bigboxlearn{width:100%}
+        .learnfont{width: 100%;height: 70px;position: relative;background-color: #fff}
+        .learnfontback{width: 300px;margin-left:40px;height: 50px;float: left;margin-top: 15px}
+        .learnfontback p{color: #40434c;line-height: 20px}
+        .learnfontback p a{font-weight: bold;color: #40434c}
+        .learntitle{width: 200px;height:45px;font-size: 16px;font-weight: bold;position: absolute;top: 15px;left: 44%;border-radius: 10px; background-color: #fff;color: #0f6dec;text-align: center;line-height: 45px}
+
+        .learnlistfont {width:94%;height:30px;margin:0px auto;margin-top: 40px}
+        .learnlistfont button{height: 30px;width: 150px;background-color: #317aed;color: #fff;line-height: 30px;border-radius: 5px;text-align: center; outline:none;border: none; }
+        .learnlist{width:94%;height:700px;background-color: #fff;margin:0px auto;margin-bottom: 40px}
+
+        .scoreall{width: 96%;height:680px;margin:10px auto;position: relative;} 
+        .scoretitle{width: 100%;height: 170px;}
+        .scoretitle div{color: #0f6dec;font-weight: bold;}
+        .scoretitle p{font-size: 12px;margin-left: 10px;line-height: 20px}
+        .scornum{width: 100%;height: 70px}
+        .scornum button{height:30px;width: 30px;;color: #fff;line-height:30px;border-radius: 2px;text-align: center; outline:none;border: none;margin:10px 5px}
+        .scornum .scornum_button_right{background-color: #18bc99}
+        .scornum .scornum_button_error{background-color: #ff431d}
+        .scorlist{width:99%;height: 400px;border: 1px solid #cbd3de;overflow-y: scroll;overflow-x: hidden;padding-left: 1% }
+        .scorlista p{margin-left:0px}
+        .scorlista p span{color:#0f6dec;font-weight: bold; }
+        .scorlista div {margin:5px 0px;margin-left: 10px }
+        .scorlista div button{height:30px;line-height:30px;border-radius: 2px;text-align: center; outline:none;border: none; font-size: 12px;padding: 0px 10px}
+        .scorlista div img{opacity: 0}
+        .scorlista div .scorlclickimg{opacity:1}
+        .scorlista div .scorlclick{height:30px;background-color: #18bc99;color: #fff;line-height:30px;border-radius: 2px;text-align: center; outline:none;border: none; font-size: 12px}
+        .scorlistb{margin-top: 15px;}
+        .scorlistb p{color:#0f6dec;font-weight: bold; }
+        .scorlistb div {margin:5px 0px;margin-left: 10px }
+        .scorlistb div button{height:30px;line-height:30px;border-radius: 2px;text-align: center; outline:none;border: none; font-size: 12px;padding: 0px 10px}
+        .scorlistc{margin-top: 15px;}
+        .scorlistc p{color:#0f6dec;font-weight: bold; }
+        .scorlistc div {margin:5px 0px;margin-left: 10px }
+        .scorlistc div button{height:30px;line-height:30px;border-radius: 2px;text-align: center; outline:none;border: none; font-size: 12px;padding: 0px 10px;background-color: red;color: #fff}
+        .scorliste{color:#0f6dec;font-weight: bold;}
+        .scorright{width: 20px;height: 399px;position: absolute;top: 241px;right: 0px;background-color: #fff}
+        .scorend span{font-size: 12px}
+        .scorend button{width: 150px; height:35px;line-height:35px;border-radius: 5px;text-align: center; outline:none;border: none; font-size: 14px;padding: 0px 10px;background-color: #0f6dec;color: #fff;float: right;margin-top: 5px}
+        .scorlcolor{width: 10px;height: 10px;border-radius: 50%;background-color: red}
+        .scorlist_tishi{color:#0f6dec;font-weight: bold;line-height: 300px;text-align: center;}
+
+
+
+        /*体验弹窗*/
+        .bigrush{width:100%;height: 100%x;position: fixed;top:0px;left:0px;display: none;}
+        .rush{width: 800px;height: 400px;margin: 150px auto;border-radius: 10px; background-color: #fff;}
+        .rushx{width:25px;height: 25px;float:right;margin: 10px}
+        .rushx img{width:25px;height: 25px;}
+        .rush .rushlist{width: 400px;height: 300px;margin-left: 200px;padding-top: 50px}
+        .rush .rushlist p{font-size: 19px;text-align: center;color: #0f6dec;height: 50px;}
+        .rush .rushlist img{width: 380px;height: 100px;margin: 30px 10px}
+        .rush .rushlist a{text-align: center;color: #fff;background-color: #0f6dec;border-radius: 5px;border: none;padding: 10px 100px}
+
+        /*提示弹窗*/
+        .bigtips{width:100%;height: 100%x;position: fixed;top:0px;left:0px;display: none;}
+        .tips{width: 800px;height: 400px;background-color: #fff;margin: 150px auto;border-radius: 10px;}
+        .tipsx{width:25px;height: 25px;float:right;margin: 10px}
+        .tipsx img{width:25px;height: 25px;}
+        .tips .tipslistone{width: 50%;float: left; height: 200px;margin-top: 70px}
+        /*.tips .tipslistone img{width: 100%;height:100%;}*/
+        .tips .tipslisttwo{width: 50%;float: left; height: 200px;margin-top: 80px}
+        .tips .tipslisttwo p{font-size: 21px;text-align: center;color: #fe624d;margin-bottom: 20px}
+        .tips .tipslisttwo button{ outline:none;width: 150px;height:40px;margin: 10px 125px;text-align: center;line-height: 40px;color: #fff;background-color: #0f6dec;border-radius: 5px;border: none;}
+
+
+       
+
+        .bighelp{width: 100%;height: 100%;position: fixed;top:0px;left:0px;display: none;}
+        .help{width: 800px;height: 500px;margin: 100px auto;border-radius: 10px;background-image: url('../images/abc.png');background-repeat:no-repeat; background-size: 800px 500px;}
+
+        .helpx{width:25px;height: 25px;float:right;margin: 10px}
+        .helpx img{width:25px;height: 25px;}
+        .help .helplist{width: 100%;height:50px;padding-top: 60px; text-align: center;font-size: 24px;color: #1541be}
+        .help .helpbtn{width: 100%;height:50px;padding-top: 300px; }
+        .help .helpbtn button{outline:none;width: 150px;height:40px;margin-left: 325px;text-align: center;line-height: 40px;color: #fff;background-color: #0f6dec;border-radius: 5px;border: none; }
+
+
+        .classbigtips{width:100%;height: 100%x;position: fixed;top:0px;left:0px;display: none;}
+        .classtips{width: 800px;height: 400px;background-color: #fff;margin: 150px auto;border-radius: 10px;}
+        .classtipsx{width:25px;height: 25px;float:right;margin: 10px}
+        .classtipsx img{width:25px;height: 25px;}
+        .classtips .classtipslistone{width: 50%;float: left; height: 200px;margin-top: 70px}
+        /*.classtips .classtipslistone img{width: 100%;height:100%;}*/
+        .classtips .classtipslisttwo{width: 50%;float: left; height: 200px;margin-top: 80px}
+        .classtips .classtipslisttwo p{font-size: 21px;text-align: center;color: #fe624d;margin-bottom: 20px}
+        .classtips .classtipslisttwo button{ outline:none;width: 150px;height:40px;margin: 10px 125px;text-align: center;line-height: 40px;color: #fff;background-color: #0f6dec;border-radius: 5px;border: none;}

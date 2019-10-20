@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ 	<title></title>
+    <link rel="stylesheet" type="text/css" href="css/head.css">
+    <link rel="stylesheet" type="text/css" href="css/presion.css">
+
+ 	<!-- <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/base.css"> -->
+    <script type="text/javascript" src="../js/jquery-2.0.3.min.js"></script>
+ 	<script type="text/javascript">
+
+ 	</script>
+ </head>
+ <body >
+    <div class="bigbg">
+            
+    
+        <!-- 导航栏 start -->
+        <div class="minnav">
+            <div class="navmag">
+                    <div class="navuser">
+                        <img src="images/u1.png">
+                        <img  src="images/xlsjx.png">
+                    </div>
+                    <div class="navnews">
+                        <img src="images/lingdang.png">
+                        <!-- <span>消息通知</span> -->
+                    </div>
+            </div>
+            <div class="navdata">
+                <div class="navdataone">
+                    <div class="navdataoneo"><img src="images/wxcode.png"><p>专属助教</p></div>
+                    <div class="navdataonee">
+                        <div><img src="images/cu2.png"><p>修改资料</p></div>
+                        <div><a href=""><img src="images/ku2.png"><p>退出登录</p></a></div>
+                    </div>
+                </div>
+                <div class="navdatatwo">
+                    <a href=""><img src="images/u3.png"><span>点击查看课程学习须知</span></a>
+                </div>
+            </div>
+        </div>
+        <!-- 导航栏 end-->
+
+ 		<!-- 主页 start -->
+        <div class="bigbox">
+        	<div class="personal">
+        		<div class="personaldate">
+        			<img src="images/u1.png" alt="">
+        			<div>
+        				<p>姓名:善良的CY</p>
+        				<p>今日学时长：1小时</p>
+        			</div>
+        		</div>
+        		<div class="personaltime">
+                    <div class="personaltimeimg"><img src="images/personaltimeimg.png" alt=""></div>
+                    <div class="personaltimeone">
+                        <p class="personaltime2"></p>
+                        <p class="personaltime1"></p>    
+                    </div>
+        		</div>
+        	</div>
+        	<div class="classnav">
+        		<div><a href="">课程中心</a></div>
+        		<!-- <div><a href="">素材中心</a></div> -->
+        		<div><a href="">个人中心</a></div>
+        	</div>
+        	<div class="classlist">
+                <div class="classlistdata">
+                    <div class="listdataclass">
+                        <div class="listdataclasstitle">
+                            <b>JAVA编辑课程</b>
+                            <p><a href=""><img src="images/gr2.png"><b>闯关</b></a><span><img src="images/gr4.png">平均分:<b>99分</b></span></p>
+                        </div>
+                        <div class="listdataclasslent"></div>
+                    </div>
+                    <div class="listdatamin">
+                        <div class="progress-bar">
+                            <div class="progress">
+                            </div>
+                        </div>
+                        <div class="progress-list" num='10' numimg='3'>
+                            <span>第一关</span>
+                            <span>第二关</span>
+                            <span>第三关</span>
+                            <span>第四关</span>
+                            <span>第五关</span>
+                            <span>第六关</span>
+                            <span>第七关</span>
+                            <span>第八关</span>
+                            <span>第九关</span>
+                            <span>第十关</span>
+                            <img src="images/course12.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="clear"></div> -->
+				<div class="classlistdata">
+                    <div class="listdataclass">
+                        <div class="listdataclasstitle">
+                            <b>积分兑换</b>
+                            <p><a href=""><img src="images/gr3.png"><b>体现</b></a><span><img src="images/gr5.png">总积分:<b>140分</b></span></p>
+                        </div>
+                        <div class="listdataclasslent"></div>
+                    </div>
+                    <div class="listdatamin">
+                        <div class="progress-bar">
+                            <div class="progress progresslenght">
+                            </div>
+                        </div>
+                        <div class="progress-list progresslistlenght" num='10' numimg='8'>
+                            <span>0</span>
+                            <span>10</span>
+                            <span>20</span>
+                            <span>40</span>
+                            <span>60</span>
+                            <span>80</span>
+                            <span>110</span>
+                            <span>140</span>
+                            <span>170</span>
+                            <span>200</span>
+                            <img src="images/gr1.png" alt="" class="progress-listimg">
+                        </div>
+                    </div>
+                    <div class="integral-description">
+                        <p>积分说明</p>
+                        <div>
+                            1.积分满100才可体现
+                            2.积分可以。。。。。。。
+                        </div>
+                    </div>
+                </div>
+
+                <div class="statistical-chart">
+                    <div><b>积分兑换</b><p>课程A</p></div>
+                    <div><p>课程A</p></div>
+                    <!-- <div id="line"></div> -->
+                    <div id="line" style="width:1300px;height:300px;"></div>
+                </div>
+        	</div>
+        </div>
+ 		<!-- 主页 end -->
+        
+        <include file="./Application/Public/fool.html"/>  
+        <include file="./Application/Public/sidebar.html"/>  
+        <!-- 提现操作 start-->
+        <div class="reflect-box">
+            <div class="reflect-cash">
+                <div class="reflect-cash-close"><img src="__PUBLIC__/User/images/9a2d74.png"></div>
+                <div class="reflect-cash-font">积分提现</div>
+                <div class="reflect-cash-cont">
+                    <div>
+                        <span>请输入提现积分</span>
+                        <input type="" name="" placeholder='0.00'>
+                        <button type="button">确认</button>
+                    </div>
+                    <p>当前拥有总积分数为：{$integral.integral} 分</p>
+                </div>
+                <div class="reflect-cash-show">
+                    <p>{$base.title}</p>
+                    <p>{$base.content}</p>
+                </div>
+            </div>
+            <div class="reflect-prompt"></div>
+        </div>
+        <!-- 提现操作 end -->
+    </div>
+ </body>
+ </html> 
+<style type="text/css">
+      .classlistdata{height: 120px;width: 100%;background-color: #fff;padding-bottom: 30px}
+      .listdataclass{height:40%;width: 100%;}
+      .listdataclasstitle{height: 60px;width: 100%;text-align: left;color: #0f6dec;}
+      .listdataclasstitle b{font-size: 18px;line-height: 60px;margin-left: 10px;color: #0f6dec;}
+      .listdataclasstitle p{float: right; height: 50px;margin-top:10px;}
+      .listdataclasstitle p a img{float:left;margin:20px 10px 0px 0px  }
+      .listdataclasstitle p span{margin-left: 30px}
+      .listdataclasstitle p span img{margin-right:20px }
+      .progress-listimg{margin-top: -25px}
+      .integral-description{float: right;position: relative;width: 100px}
+      .integral-description p{color: #0f6dec;font-weight: bold;width: 200px}
+      .integral-description  div{width: 300px;height: 300px;position: absolute;top: 18px;right: 0px;background-color: #fff;display: none;}
+
+      .statistical-chart{height: 300px;width: 100%;margin-top:30px; background-color: #fff}
+      .statistical-chart div b{font-size: 18px;line-height: 60px;margin-left: 20px;color: #0f6dec;}
+      .statistical-chart div p{margin-top: -15px;color:#cccccc;margin-left: 20px;font-size: 12px}
+      /*.statistical-chart #line{width: 98%;margin:0px 1%;height: 200px}*/
+
+
+
+    .listdatamin{height: 50%;width: 100%;}
+    /*进度条*/
+    .progress-bar{
+        margin-top: 25px;
+        /* 进度条的槽 */
+        width:100%;
+        /* 设置进度条的高度 */
+        height: 10px;
+        /*进度条外层div的背景色，进度未达到的地方的颜色 */
+        background-color: #e8e8e8;
+        border-radius: 10px;
+    }
+    .progress{
+        /* 进度部分 */
+        /* 利用继承父元素宽度的百分比控制进度 */
+        width: 10%;
+        height: 100%;
+        /* 内层背景色即进度达到的颜色 */
+        /*background-color: #2e7af5;*/
+        border-radius: 10px;
+        /*background:linear-gradient(-90deg,#e2f50c,#84eafe)*/
+        background-color: #4082fb
+    }
+    /*进度条*/
+    .progress-list{width: 100%;height: 40px;line-height: 40px;font-size: 12px;position: relative;}
+    .progress-list img{position: absolute;top:-55px;left: 40px}
+    .progress-list span{ color: #2978f4;display: block;width: 65px;float: left;font-weight: bold;font-size: 13px}
+
+
+/*体现css*/
+  .reflect-box{width: 100%;height: 100%;position: fixed;left: 0px;top: 0px}
+  .reflect-cash{position: relative; border-radius: 5px; width: 800px;height: 400px;background-color: #fff;margin:150px auto;background-image: url('../images/9d55386.png');background-repeat:no-repeat; background-size:100%}
+    .reflect-cash-close{width: 25px;height: 25px;border-radius: 50%;position: absolute;top: 30px;right: 30px}
+    .reflect-cash-close img{width:100%;height:100%;}
+    .reflect-cash-font{width: 200px;height: 50px;font-size: 18px; color: #000000;font-weight: bold;padding:50px 0px 20px 60px;}
+    .reflect-cash-cont{width: 500px;height: 120px;font-size: 18px; margin:0px auto;}
+    .reflect-cash-cont span{font-size: 18px;}
+    .reflect-cash-cont input{border:none;border-bottom: 2px solid #0f6dec;color: #b3b3b3;text-align: center;margin: 0px 10px;height: 30px;font-size: 20px}
+    .reflect-cash-cont button{width: 90px;height: 30px;text-align: center;background-color: #57a8fe;color: #fff;border: none;border-radius: 5px}
+    .reflect-cash-cont p{font-size: 16px;color: #727272;margin-top: 10px}
+    .reflect-cash-show{margin-left: 60px;}
+    .reflect-cash-show p:nth-child(1){font-size: 16px;color: #40434a;font-weight: bold;}
+    .reflect-cash-show p{line-height:25px}
+
+</style>
+<script type="text/javascript" src="../js/header.js"></script>
+<script type="text/javascript" src="../js/presion.js"></script>
+<script type="text/javascript" src="../js/echarts.min.js"></script>
+<!-- <script type="text/javascript" src="js/charts.js"></script> -->
+
+<script type="text/javascript">
+    $('.integral-description').hover(function(){
+         $('.integral-description div').css('display','block')
+    },function(){
+         $('.integral-description div').css('display','none')
+    })
+</script>
+
+<script type="text/javascript">
+    //折线图
+var line = echarts.init(document.getElementById('line'));
+line.setOption({
+    color:["#1b399a"],
+    title: {
+        x: 'left',
+        // text: '成绩统计',
+        textStyle: {
+            fontSize: '18',
+            color: 'red',
+            fontWeight: 'bolder'
+        }
+    },
+    tooltip: {
+        trigger: 'axis'
+    },
+    toolbox: {
+        show: true,
+        feature: {
+            dataZoom: {
+                yAxisIndex: 'none'
+            },
+            dataView: {readOnly: false},
+            magicType: {type: ['line', 'bar']}
+        }
+    },
+    xAxis:  {
+        type: 'category',
+        boundaryGap: false,
+        // data: ['周一','周二','周三','周四','周五','周六','周日'],
+        data: ['08/02','08/03','08/04','08/05','08/06','08/07','08/08','08/09','08/10','08/11','08/12'],
+        axisLabel: {
+            interval:0
+        }
+    },
+    yAxis: {
+       name: '学习时间/h',
+          type: 'value',
+          min:0, // 设置y轴刻度的最小值
+          max:10,  // 设置y轴刻度的最大值
+          splitNumber:5,  // 设置y轴刻度间隔个数
+          axisLine: {
+            lineStyle: {
+              // 设置y轴颜色
+              color: '#cccccc'
+            }
+          },
+    },
+    series: [
+        {
+            name:'课程A',
+            type:'line',
+            // data:[23, 42, 18, 45, 48, 49,100],
+            data:[0, 1.2, 3, 5, 2, 6,8,9],
+            markLine: {data: [{type: 'average', name: '平均值'}]}
+        }
+    ]
+}) ;
+
+</script>
+
+

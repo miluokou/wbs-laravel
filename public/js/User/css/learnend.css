@@ -1,0 +1,31 @@
+        *{padding: 0px;margin: 0px;font-size: 14px;text-decoration: none;font-family: 'Arial Normal', 'Arial';}
+        .clear{clear: both;}
+        body{background-image: url('../images/learnbg.jpg');background-repeat:no-repeat; background-size:100%;-moz-background-size:100% }
+        .bigboxlearn{width: 96%;margin: 0px 2%; margin-bottom: 50px;}
+        .learnfont{width: 100%;height: 50px;margin-top: 20px;position: relative;}
+        .learnfontback{width: 300px;}
+        .learnfontback p a{font-weight: bold;color: #333}
+        .learntitle{width: 200px;height:50px;font-size: 20px;font-weight: bold;position: absolute;top: 0px;left: 48%}
+        .learnlist{width: 98%;padding: 1%;background-color: #272c36;}
+        .learnlistnr{float: left;width: 70%;height: 100%;position: relative;}
+        .learnlistnr img{float: left;margin:0px 10px; }
+        .learnlistnr div{color: #fff;width: 100%;margin-top: 50px;}
+        .learnlistnr div button{background-color: #fff;text-align: center;width: 100px;height:30px;line-height: 30px;margin-left: 15px}
+        .learnlistnr .learnlistsubmit{width: 125px;height: 40px;text-align: 40px;line-height: 40px;background-color: #57a8fe;color: #fff;text-align: center;position: absolute;right:5px;bottom:5px;border-radius: 5px;color: #fff}
+        .learnlistby{float: right;width: 25%;height: 730px;margin:1% 0px;background-color: #19202f}
+        .learnlistby .learnlistbynr{width: 100%;height:60%;border-bottom: 3px solid #272c36;position: relative;}
+        .learnlistby .learnlistbyan{width: 100%;height:40%;position: relative;}
+        .learnlistby .learnlistbynr button{width: 70px;height:25px;position: absolute;bottom: 5px;right: 5px;background-color: #ffba00;border: none;border-radius: 5px;color: #fff}
+        .learnlistby .learnlistbyan button{width: 70px;height:25px;float: right;margin: 5px;background-color: #57a8fe;border: none;border-radius: 5px;color: #fff;}
+
+        .learnend{width: 100%;}
+        .learnendfont{height: 32px;width: 100%;background-color: #19202f;color: #fff;line-height: 32px}
+        .learnendimg{width: 96%;margin: 30px 2%}
+        .learnendimg img{width: 385px;height: 100px;margin-left:120px;margin-bottom: 30px}
+
+        .prompt{width: 800px;height: 50px;position: fixed;top: 65px;left:30%;background-color: #fff;}
+        .promptx{width:25px;height: 25px;float:right;margin: 10px}
+        .promptx img{width:25px;height: 25px;}
+        .prompt .promptlist{width: 400px;height: 60px;margin-left: 200px;margin-top: 15px}
+        .prompt .promptlist p{font-size: 19px;text-align: center;}
+        .prompt .promptlist button{width: 150px;height:40px;margin: 10px 125px;text-align: center;line-height: 40px;color: #fff;background-color: #0f6dec;border-radius: 5px;border: none;}

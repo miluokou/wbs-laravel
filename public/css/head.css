@@ -1,0 +1,62 @@
+ *{padding: 0px;margin: 0px;font-size: 14px;text-decoration: none;font-family: 'Arial Normal', 'Arial';}
+.clear{clear: both;}
+.minnav{
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+.navimg{
+    width: 220px;
+    height: 40px;
+    /*float: left;*/
+    margin: 15px auto;
+}
+.navimg img{width: 100%;height: 100%}
+.navmag{width: 150px;height: 40px;position: absolute;right: 20px;top: 0px;}
+.navin{width: 70px;height: 36px;margin: auto;text-align: center;line-height: 40px;}
+.navin a{color: #fff;line-height: 60px}
+.navnews{width: 30%;height: 100%;float: right;}
+.navnews img{width: 20px;height: 25px;margin-top:15px;float: right;margin-right: 15px;}
+.navnews span{margin-top:10px;float: left; }
+.navuser{width: 70%;height: 100%;float: right;position: relative;}
+.navuser img{width: 11px;height: 9px;float: left;margin-left: 5px;margin-top:25px}
+.navuser img:nth-child(1){width: 35px;height: 35px;float: left;margin: 0px;margin-right:5px;margin-top: 12px;border-radius: 50%}
+.navuser span{margin-top:10px;margin-left:2px;float: left;}
+
+.navdata{/*width: 335px;*/width: 235px;height: 190px;position: absolute;top: 45px;right: 20px;background-color: #fff;border: 1px solid #C9C9C9;display: none;opacity: 1}
+
+.navdataone{width: 100%;height: 140px;padding-top: 10px}
+.navdataone .navdataoneo{width:50%;height: 100%;float: left}
+.navdataone .navdataoneo img{width: 90px;height: 90px;margin-left: 10px;}
+.navdataone .navdataoneo p{text-align: center;}
+.navdataone .navdataonee{width: 50%;height: 100%;float: left}
+.navdataone .navdataonee div{width: 100px;height: 35%;}
+.navdataone .navdataonee div img{width: 30px;height: 30px;margin-left: 35px;}
+.navdataone .navdataonee div p{font-size: 12px;text-align: center;color: #40434a}
+/*.navdataone .navdataonee div p a{color: #ccc}*/
+
+.navdatatwo{width: 200px;height: 30px;color: #C9C9C9;float: right;}
+.navdatatwo img{width: 20px;height: 20px;}
+.navdatatwo span{font-size: 12px;color: #40434a}
+
+    /*侧边*/
+.broadsidenav{    
+    position: fixed;
+    right: 30px;
+    top: 35%;
+    width: 70px;
+    padding-bottom: 15px;
+    /*height: 409px;*/
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(204, 204, 204, 1);
+}
+.broadsidenav {position: absolute;}
+.broadsidenav div {margin-top: 10px;}
+.broadsidenav div img{width: 50px;height: 50px;margin-left: 10px}
+.broadsidenav div p{text-align: center;    font-size: 12px;}
+.click_qq div{width: 100px;height: 100px;position: absolute;top: -12px;left: -100px;display: none;}
+.click_qq div img{width: 100%;height: 100%;margin-left: 0px}
+.click_wx div{width: 100px;height: 100px;position: absolute;top: 50px;left: -100px;display: none;}
+.click_wx div img{width: 100%;height: 100%;margin-left: 0px}
+.click_wb div{width: 100px;height: 100px;position: absolute;top: 150px;left: -100px;display: none;}
+.click_wb div img{width: 100%;height: 100%;margin-left: 0px}

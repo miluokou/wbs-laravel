@@ -1,0 +1,57 @@
+    .minnav{background-image: url('../images/indexlogo.png');background-repeat:no-repeat; background-size:100% 100%;-moz-background-size:100% 100%;}
+     .clear{clear: both;}
+    /*个人信息*/
+  .bigbox{width: 100%;background-color: #f2f2f2;padding:5px 0px 20px 0px}
+  .detailsname{height: 95px;width:98%;background-color: #fff;margin:0px 1% 30px 1%}
+  .detailsname div:nth-child(1){height: 95px;width:  300px;float: left;text-align: left;line-height: 95px;font-size:25px;margin-left: 20px; } 
+  .detailsname div:nth-child(2){height: 95px;width:  300px;float: right;text-align: right;line-height: 95px;font-size:18px;margin-right: 20px } 
+  .detailsname div:nth-child(2) span{font-size:35px;margin-right: 30px;font-weight: bold;} 
+  .detailsname div:nth-child(2) button{outline:none;width: 120px;padding: 10px; font-size:12px;margin-right: 20px;background-color: #0f6deb;color: #fff;border-radius: 20px;border:none; float: right;margin-top: 30px} 
+
+  /*.detailsname p{height: 95px;width:100%;font-weight: 400px;font-size: 30px;line-height: 95px;text-align:center;}*/
+  .detailslist{width:96%;margin:0px 2% 0px 2%}
+  .detailslist img{width:100%;display: block;}
+    /*个人信息*/
+
+/*购买页面*/
+    .bigbuybox{display: none; width: 100%;height: 100%;position: fixed;top: 0px;left: 0px}
+    .buyone{ width: 850px;height: 600px;margin: 100px auto;background-color: #fff;border-radius: 10px;position: relative;padding: 0px 30px}
+    .buyone-close{width: 25px;height: 25px;border-radius: 50%;position: absolute;top: 20px;right: 30px;}
+    .buyone-title{width: 100%;height: 65px;line-height: 65px;font-size: 14px;color: #40434a;border-bottom: 1px solid #e4e4e4;}
+    .buyone-name{height: 100px;width: 100%;line-height: 100px;border-bottom: 1px dashed #e4e4e4;font-size: 20px;font-weight: bold;}
+    .buyone-cash{width: 95%;height: 50px;line-height: 30px;color: red;font-size: 14px;font-weight: bold;text-align: right;} 
+    .buyone-pay p{color: #40434a;margin-bottom: 20px;font-weight: bold;}
+    .buyone-pay p button{color: #40434a;width: 110px;height: 35px;text-align: left;line-height: 35px;background-color: #f5f5f7;margin-left: 20px;border-radius: 5px;border:none;position: relative;outline:none;}
+    .buyone-pay p button .buyone-payimg{float: left;margin:5px 5px 0px 20px;}
+    .buyone-pay p button .buyone-payimga{position: absolute;right: 0px;bottom: 0px;display: none}
+    .buyone-code{width: 150px;margin: auto;}
+    .buyone-code-see{display: none;}
+    .buyone-code .buyone-code{display: none}
+    .buyone-code img{width: 150px;height: 150px;}
+    .buyone-code p{width: 150px;text-align: center;color: #40434a;font-size: 12px}
+
+    .buytwo{ width: 870px;margin:10px auto;background-color: #fff;border-radius: 10px;position: relative;padding: 0px 30px}
+    .buytwo-close{width: 25px;height: 25px;border-radius: 50%;position: absolute;top: 20px;right: 30px;}
+    .buytwo-title{width: 100%;height: 50px;line-height: 65px;font-size: 14px;color: #40434a;border-bottom: 1px solid #e4e4e4;}
+    .buytwo-name{width: 100%;margin-bottom: 25px}
+    .buytwo-name p:nth-child(1){width: 100%;font-size: 20px;margin-top: 10px}
+    .buytwo-name p:nth-child(2){width: 100%;font-size: 13px;margin-bottom: 5px}
+    .buytwo-meal{width: 100%;height: 65px;}
+    .buytwo-meal img{width:200px;height: 65px;float: left;margin-right: 15px;border-radius: 5px;margin-bottom: 15px}
+    .buytwo-rebate{width: 100%;margin-bottom: 30px;}
+    .buytwo-rebate p{width: 100%;font-size: 13px;margin-bottom: 5px}
+    .buytwo-rebate img{width: 105px;height: 40px;float: left; margin-right: 15px;;margin-bottom: 15px;border-radius: 20px;}
+    .buytwo-cash{width: 95%;height: 35px;font-size: 15px;font-weight: bold;color: red;text-align: right;}
+    .buytwo-cash span{font-size: 20px;}
+    .buytwo-pay p{color: #40434a;margin-bottom:5px;font-weight: bold;}
+    .buytwo-pay p button{color: #40434a;width: 110px;height: 35px;text-align: left;line-height: 35px;background-color: #f5f5f7;margin-left: 20px;border-radius: 5px;border:none;position: relative;outline:none;}
+    .buytwo-pay p button .buytwo-payimg{float: left;margin:5px 5px 0px 20px;}
+    .buytwo-pay p button .buyone-payimga{position: absolute;right: 0px;bottom: 0px;display: none}
+    .buytwo-code{width: 150px;height: 170px;margin: auto; }
+    .buytwo-code .buytwo-code-see{display:none }
+    .buytwo-code img{width: 150px;height: 150px;}
+    .buytwo-code p{width: 150px;text-align: center;color: #40434a;font-size: 12px}
+    .buytwo-show .buytwo-code-see:nth-child(1){font-weight: bold;font-size: 12px;}
+
+    .setmealkid{display: none;}
+    .couponcid{display: none;}

@@ -1,0 +1,32 @@
+body{background-image: url('../images/presion1.gif');}
+.bigbg{width: 100%;height:820px; background-image: url('../images/presion.png');background-repeat:no-repeat; background-size:100% 820px;}
+  .bigbox{width: 100%;height: 1031px}
+  .personal{width:92%;height: 110px;padding:0px 4%;}
+  .personaldate{height: 90px;width:600px;float: left;margin-top: 20px}
+  .personaldate img{height:65px;width:65px;float: left;margin-right:20px;border-radius: 50%}
+  .personaldate div{height:90px;width:400px;margin-right:20px;float: left;}
+  .personaldate div p:nth-child(1){ color: #fff;font-weight: bold;font-size: 18px;}
+  .personaldate div p:nth-child(2){ color: #fff; width: 150px;font-size: 13px;text-align: left;margin: 10px 0px;padding:5px}
+  .personaldate div p:nth-child(3){ color: rgb(51, 51, 51);font-weight: 400;font-size: 12px;}
+  .personaldate div p:nth-child(3) span{ color:#FF0000;font-size: 12px;}
+  .personaltime {height: 90px;width:400px;float: right;margin-top: 20px}
+  .personaltimeone {height: 90px;width:150px;float: right;}
+  .personaltimeone p{color: #fff;font-size: 24px;text-align: center;}
+  .personaltimeimg {height: 90px;width:200px;float: right;}
+  .personaltimeimg  img{height:150px;width:200px;margin-top: -20px}
+  /*.personaltime div{float: left;width: 84px;height: 74px;margin: 3px 5px}*/
+  /*.personaltime div:nth-child(1){text-align: center;font-size: 36px;color: #AEAEAE;background-color: #ffffff;line-height: 75px}*/
+  /*.personaltime div:nth-child(2) p{font-size: 20px;color: #5E5E5E;margin-top: 5px}*/
+
+/*导航*/
+  .classnav{width: 92%;height: 42px;padding:0px 4%;}
+  .classnav div{width: 80px;height: 40px;float: left;font-size: 14px;margin-right: 10px;text-align: center;line-height: 39px}
+  .classnav div a{color: #333333;font-size: 14px;font-family: 'Arial Normal', 'Arial';font-weight: 400}
+  .classnav div:nth-child(2){border-bottom: 3px solid #3399ff}
+  .classnav div:nth-child(2) a{color: #3399ff;}
+
+/*导航*/
+
+	.classlist{width:92%; padding:0px 4%;margin-top: 10px}
+
+	
